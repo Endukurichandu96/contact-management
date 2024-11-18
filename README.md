@@ -25,5 +25,5 @@ Summary: PostgreSQL's strong relational capabilities, combined with Prisma's typ
  - Create a .env file in the root directory with the following parameter:
 DATABASE_URL="postgresql://root:root@localhost:5432/contacts?schema=contact-mgmt-db"
  - Run "npm run dev" to start the application in development environment.
- -Run "npm run build" to compile the TypeScript code for production.
- -Run "npm run start" to start the application in production environment.
+ - Run "npm run build" to compile the TypeScript code for production.
+ - Run "npm run start" to start the application in production environment.
