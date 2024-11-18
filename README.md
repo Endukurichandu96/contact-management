@@ -22,8 +22,8 @@ By using PostgreSQL, we also ensure that the application can easily scale to sup
 Summary: PostgreSQL's strong relational capabilities, combined with Prisma's type-safe ORM features, make it an excellent choice for this contact management project, ensuring reliable data handling and smooth integration with the Node.js and TypeScript stack.
 
 #Steps to run Application
-1.Create a .env file in the root directory with the following parameter:
+ - Create a .env file in the root directory with the following parameter:
 DATABASE_URL="postgresql://root:root@localhost:5432/contacts?schema=contact-mgmt-db"
-2.Run "npm run dev" to start the application in development environment.
-3.Run "npm run build" to compile the TypeScript code for production.
-4.Run "npm run start" to start the application in production environment.
+ - Run "npm run dev" to start the application in development environment.
+ -Run "npm run build" to compile the TypeScript code for production.
+ -Run "npm run start" to start the application in production environment.
